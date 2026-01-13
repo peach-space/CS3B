@@ -47,5 +47,6 @@ if __name__ == "__main__":
     for i in range(5):
         print(f"{my_deck.deal()}")
     print(f"Remaining: {len(my_deck)} cards")
+
     my_deck.shuffle()
     print(f"\nAfter shuffle: {len(my_deck)} cards")
