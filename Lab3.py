@@ -48,7 +48,7 @@ def run():
     c2 = FinancialContract("Annual Audit Report")
     c3 = BusinessContract("Global Partnership Agreement")
 
-    print("--- Processing Contract Submissions ---")
+    print("Processing Contract Submissions")
 
     click_submit_button(c1)
     click_submit_button(c2)
