@@ -32,7 +32,6 @@ class Solution:
 
 # ==========================================
 # Test Code
-# ==========================================
 
 def build_linked_list(arr):
     """Helper function: Convert a Python list to a linked list"""
@@ -62,5 +61,4 @@ if __name__ == "__main__":
     result1 = solution.addTwoNumbers(l1, l2)
     print("Output:   ", end="")
     print_linked_list(result1)  # 7 -> 0 -> 8
-    print("-" * 30)
 
